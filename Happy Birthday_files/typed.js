@@ -287,7 +287,7 @@
             strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
             stringsElement: null,
             typeSpeed: 50,
-            startDelay: 2000,
+            startDelay: 10000,
             backSpeed: 10,
             smartBackspace: !10,
             shuffle: !1,
