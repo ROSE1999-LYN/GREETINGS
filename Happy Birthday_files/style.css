@@ -116,3 +116,49 @@ img {
     font-size: 25px;
     color: #C4515C;
 }
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .loader button {
+        width: 60%;
+        font-size: 40px;
+        height: 80px;
+    }
+
+    .area {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .loader button {
+        width: 70%;
+        font-size: 35px;
+        height: 70px;
+    }
+
+    .area {
+        font-size: 40px;
+    }
+
+    .type-wrap {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .loader button {
+        width: 80%;
+        font-size: 30px;
+        height: 60px;
+    }
+
+    .area {
+        font-size: 30px;
+        letter-spacing: -5px;
+    }
+
+    .type-wrap {
+        font-size: 18px;
+    }
+}
